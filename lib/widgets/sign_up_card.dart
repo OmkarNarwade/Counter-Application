@@ -38,10 +38,10 @@ class _SignUpCardState extends State<SignUpCard> {
         Container(
           width: 250,
           padding: const EdgeInsets.all(16),
-          child: Column(
+          child: const Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.start,
-            children: const [
+            children: [
               Text("Join Us!",
                   style: TextStyle(
                       fontSize: 32,
